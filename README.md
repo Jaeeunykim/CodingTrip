@@ -2,4 +2,4 @@
 ## This is training materials for c programming.
 
 ## vi 
-[vi](./vi)
+[vi](./Vi/README.md)
