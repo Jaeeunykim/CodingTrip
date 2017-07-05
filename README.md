@@ -1,2 +1,2 @@
 # CodingTrip
-## This is raining materials for c programming.
+## This is training materials for c programming.
