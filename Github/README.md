@@ -1,6 +1,7 @@
 # Github
 
 ## 1. What is Github? Git?
+![](../img/git.png)
 
 git은 협업을 위한 버전관리 시스템입니다.
 
