@@ -5,7 +5,7 @@
 
 ## [Github](./Github/README.md)
 
-## [Whitebook](./whiteBook/README.md)
+## [Whitebook](./Whitebook/README.md)
 
 ## [Linux](./Linux/README.md)
 
