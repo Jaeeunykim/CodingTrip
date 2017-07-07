@@ -1,7 +1,7 @@
 # CodingTrip
 ## This is training materials for c programming.
 
-## [vi](./Vi/README.md)
+## [Vi](./Vi/README.md)
 
 ## [Github](./Github/README.md)
 
