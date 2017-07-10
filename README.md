@@ -1,6 +1,6 @@
 # CodingTrip
 
-## This is training materials for c programming.
+## These are the training materials for c programming.
 ![](./img/materials.png)
 
 ## [Vi](./Vi/README.md)
