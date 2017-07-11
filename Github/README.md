@@ -21,14 +21,19 @@ git 에서도 하나의 프로젝트를 많은 사람들이 작업 할수 있도
 					   repo안에는 진행되는 프로젝트가 저장되기도 하고, 문서파일,
 					   이미지 파일을 저장하기도 합니다 
 - Version Control(버전관리) : 
-- Commit(커밋) : 
-- Branch(브랜치) :
+- Commit(커밋) : pc내의 저장소에서 변경한 내용을 깃에 올린다 
+- Branch(브랜치) :메인 프로젝트에서 브랜치를 따나와서 작업후 merge함
 
 ## 3. Github.com 가입하기 & 프로필 작성
 
 ## 4. Fist repo 만들기 (온라인저장소)
 
 ## 5. 명령어 설명
+git init: 깃저장소 초기화
+git help: 명령어 검색 "git hlep init"
+git status : 커밋에 필요한 변경사하잉 있는지 상태확인
+git add -m : comment를적어는다 
+
 
 ## 6. 로컬저장소 만들기 (mkdir --)
 
