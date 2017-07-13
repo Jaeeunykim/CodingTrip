@@ -1,0 +1,44 @@
+Linux under the Hood
+
+**Big Picture**
+
+리눅스는 user의 기준으로 봤을때,
+대표적인 사용자 입력 환경인 Shell 이 있습니다
+
+그리고 user와 대응되는 Procesees가 있습니다 
+여기서 processes는 현재 컴퓨터에서 실행되고 있는 어플리케이션,서버 등 실행중인 모든 항목을 나타냅니다 
+이것들은 컴퓨터에 명령에 따라 작동하게 됩니다 
+
+그리고 Kernel이있습니다
+Linux Kernel은 유일하게 하드웨어에 접근 가능한 구성요소입니다 
+왜냐하면 user는 하드웨어에 직접적으로 접근이 불가능합니다 
+그래서 kernel를 통해 하드웨어에 접근하게 됩니다 
+
+여기서 user space와 Kernel space 두부분으로 나누어 지게 됩니다 
+kernel space는 system space라 부릅니다 
+
+user가 kernel에 닿을수 있는 제한된 옵션들이 있습니다 
+- signal, systemcalls 
+이두가지는 user가 제한적으로 kernel space에서 할수 있는 역할이 명확히 정의 되어있습니다 
+
+User가 일을 처리하기 위해서 process혹은 shell을 이용하게 됩니다
+
+process와 shell와 관련된 libraries layer가 있습니다 
+이 libary는 proces와 shell모두 사용하게 됩니다 
+(더 많은 기능을 추가하여 프로그램이 작동할수 있도록 돕는다)
+
+그리고 signal과 system clls를 통해서 user는 kernel로 들어 가게됩니다 
+
+다음 역할은 kernel이 하게 되는데 
+kernel은 하드웨어의 주소가 필요하게 됩니다 
+
+여기서 kernel은 하드웨어가 어떻게 작동하는지 알수있을까요?
+
+Kernel는 드라이버를 사용함으로 하드웨어 작동을 이해하게 됩니다
+
+kernel와 실제 하드웨어 사이에 여러 드라이버가 자리하게 되고 
+kernel은 이 드라이버들을 통해 하드웨어 접근 할수 있게 됩니다 
+
+그리고 또다른 역할을 하는 요소가 있는데 이는 networking입니다 
+networking은 kernel레벨에서 작동하게 됩니다
+network packets이 kernel레벨로 들어오고 kernel레벨에서 user가 사용할수 있게 됩니다 일종의 방화벽 처럼말이죠 
